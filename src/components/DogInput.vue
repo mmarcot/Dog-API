@@ -1,11 +1,16 @@
 <template>
-	<input 
-		type="text" 
-		class="form-control w-50 mx-auto" 
-		id="dog-input" 
-		placeholder="Search" 
-		v-on:keyup.enter="searchDog"
-	/>
+	<div class="input-group col-sm-5 mx-auto">
+		<input 
+			type="text" 
+			class="form-control" 
+			id="dog-input" 
+			placeholder="Search a breed" 
+			v-on:keyup.enter="searchDog"
+		/>
+		<div class="input-group-append">
+			<button class="btn btn-success">Go !</button>
+		</div>
+	</div>
 </template>
 
 
