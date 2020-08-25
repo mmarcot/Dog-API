@@ -1,5 +1,7 @@
 # dogapi
 
+DogAPI is a Vue.js app that get random dogs picture from a Dog API ( https://dog.ceo/dog-api/documentation/ )
+
 ## Project setup
 ```
 npm install
